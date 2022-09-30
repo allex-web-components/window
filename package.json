@@ -1,0 +1,25 @@
+{
+  "name": "allex_windowwebcomponent",
+  "version": "1.0.0",
+  "description": "AllexJS web component for window manipulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "allex-mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/allex-web-components/window.git"
+  },
+  "keywords": [
+    "ecosystem:AllexJS",
+    "window",
+    "web",
+    "component"
+  ],
+  "author": "Andrija Petrovic <andrija.hers@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allex-web-components/window/issues"
+  },
+  "homepage": "https://github.com/allex-web-components/window#readme"
+}
