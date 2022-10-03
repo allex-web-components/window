@@ -52,7 +52,7 @@ function createWindowCreatorJobCore (lib, mylib) {
   };
   WindowCreatorJobCore.prototype.createWindow = function () {
     var url = lib.joinStringsWith(
-      (this.createparams.host || window.location.origin)+
+      (this.createparams.host || (window.location.origin+window.location.pathname))+
       '?allexsessionid='+this.sessionid
       ,
       (this.createparams.query ? 'allexquery='+this.createparams.query : '')
